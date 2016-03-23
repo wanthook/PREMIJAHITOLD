@@ -1,0 +1,74 @@
+/* 
+    Document   : terry
+    Created on : 17 Mei 13, 10:14:15
+    Author     : taufiq
+    Description:
+        Purpose of the stylesheet follows.
+*/
+* { padding:0; margin:0; outline:0; }
+
+body 
+{
+    background:#fff;
+    font-family: Verdana, sans-serif;
+    font-size:10px;
+    line-height:14px;
+    color:#583600;
+}
+
+#header { height:89px; 
+          background:url(../images/headij.png); 
+          white-space:nowrap; }
+#header h1{ float:left; display:inline; padding-top:19px; }
+
+#main {}
+#content { float:right; width:950px; }
+#sidebar { float:left; width:225px; }
+
+#footer { height:44px; width:100%; background:url(../images/foot.png); line-height:44px; color:#583600;position:absolute;bottom:0;}
+#footer a{ color:#583600; }
+
+#top-navigation { float:right; white-space:nowrap; color:#583600; padding-top:15px;}
+#top-navigation a{ color:#583600; }
+#top-navigation span{ color:#583600; }
+
+.box { background:#fbfcfc; height:100%; padding:1px; margin-bottom:20px; border:solid 1px #e0e0e0; }
+.box-head { background:#d4d2d2; height:32px; color:#583600; padding: 0 10px; line-height:32px; white-space:nowrap; border-bottom:solid 1px #fff; font-weight: bold; }
+.box-head .right{ padding-top:5px; line-height:13px;}
+.box-head .right label,
+.box-head .right input { float:left; }
+.box-head .right label { padding:4px 0 0 0;}
+.box-head .right input { margin-left:5px;}
+
+.form { padding:15px 10px 5px 10px; }
+.form label{ display:block; font-weight: bold; font-size:13px; padding-bottom:4px; }
+.form label span{ color:#999; font-weight: normal;}
+.form .field { display:block; }
+.form .inline-field .field { display:inline;}
+.form .req { font-size:13px; float:right; white-space:nowrap; color:#999;  }
+.form p{ padding-bottom:15px; }
+
+.field:focus { color:#000; border-color:#857b42;}
+.field, .button { -moz-border-radius:4px; -webkit-border-radius:4px; }
+
+.buttons { text-align: right; padding:10px; background:#eee; border-top:solid 1px #e0e0e0; }
+.buttons .button{ margin-left:3px;}
+
+#top { height:53px; }
+
+#container { padding:20px 0;}
+
+.left, .alignleft { float:left; display:inline; }
+.right, .alignright { float:right; display:inline; }
+.center{margin-left:auto;margin-right:auto;}
+.centertb{margin-left:auto;margin-right:auto; margin-top: auto; margin-bottom: auto;}
+.shell { width:1200px; margin:0 auto; }
+
+h1{ font-size:22px; line-height:24px; color:#583600; font-weight: bold;}
+h1 a{ color:#444; text-decoration: none; }
+h2 { font-size:15px; font-weight: bold; color:#000000; font-weight: normal;}
+h3 { font-size:12px; line-height:14px; font-weight: normal; }
+h3 a{ text-decoration: none; }
+
+.cl { font-size:0; line-height:0; clear:both; display:block; height:0; }
+#button > span.ui-icon-custom {background-image:url('../images/excel.png');}
